@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/martscastrillo/ECMAScript_basics/issues"
   },
-  "homepage": "https://github.com/martscastrillo/ECMAScript_basics#readme"
+  "homepage": "https://github.com/martscastrillo/ECMAScript_basics#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
