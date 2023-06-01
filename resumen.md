@@ -13,7 +13,18 @@
 - Default Params se implementó en:
     - ES6
 - Identifica la "Promesa" entre los siguientes bloques de código:
-    - ``` const helloPromise = () => { return new Promise((resolve, reject) => { if (true) { resolve('Hey!'); } else { reject('Whooops!'); } }); };```
+```javascript
+const helloPromise = () => {
+    return new Promise((resolve, reject) => { 
+                if (true) { 
+                    resolve('Hey!'); 
+                } 
+                else { 
+                    reject('Whooops!'); 
+                } 
+            }); 
+          }; 
+``` 
 - ¿Cuál es la forma correcta de exportar un módulo en ES6?
     - export default functionName;
 - En un generator, utilizamos “next” para:
@@ -28,7 +39,14 @@
 - ¿En qué versión de ECMAScript fueron implementadas las Async functions?
     -   ES8
 - Identifica el código que implementa "Optional Catch Binding":
-    -   ```try { // some code } catch (err) { // error handling code }```
+```javascript
+try {
+// some code 
+}
+catch (err) {
+// error handling code
+ }
+```
 - ¿En que versión de ECMAScript se implementó "trimStart"?
     -   ES10
 - ¿Cuál es la forma en que ECMAScript 11 en 2020 permitió realizar la importación dinámica?
