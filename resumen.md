@@ -13,7 +13,7 @@
 - Default Params se implementó en:
     - ES6
 - Identifica la "Promesa" entre los siguientes bloques de código:
-    - ```const helloPromise = () => { return new Promise((resolve, reject) => { if (true) { resolve('Hey!'); } else { reject('Whooops!'); } }); };
+    - ``` const helloPromise = () => { return new Promise((resolve, reject) => { if (true) { resolve('Hey!'); } else { reject('Whooops!'); } }); };```
 - ¿Cuál es la forma correcta de exportar un módulo en ES6?
     - export default functionName;
 - En un generator, utilizamos “next” para:
