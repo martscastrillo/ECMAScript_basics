@@ -26,7 +26,7 @@ const helloPromise = () => {
           }; 
 ``` 
 - ¿Cuál es la forma correcta de exportar un módulo en ES6?
-    - export default functionName;
+    - ```export default functionName;```
 - En un generator, utilizamos “next” para:
     - Retornar el siguiente valor.
 - string.includes(value) fue implementado en:
@@ -43,7 +43,7 @@ const helloPromise = () => {
 try {
 // some code 
 }
-catch (err) {
+catch {
 // error handling code
  }
 ```
@@ -53,5 +53,3 @@ catch (err) {
     -   Usando async y await para realizar la importación dentro de la llamada al evento
 - ¿Cuál es la forma correcta de trabajar con números mayores que 2^53 gracias a la característica de BigInt que trajo ECMAScript 11?
     -   Usando el objeto BigInt pasando el número como parámetro
-- Cual de las siguientes NO es una característica sobre las nuevas funcionalidades de ECMAScript en 2021:
-    -   WeakRef - permite una referencia débil a otro elemento
